@@ -1,15 +1,15 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](.......ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/RheaChowers/first-layer-representations/blob/main/pretrained_models_demo.ipynb)
 # Why do CNNs Learn Consistent Representations in their First Layer Independent of Labels and Architecture?
 
 A demo illustrating the results of ["Why do CNNs Learn Consistent Representations in their First Layer Independent of Labels and Architecture?"](https://arxiv.org/abs/2206.02454)
 
 
-![Teaser](Readme_images/Teaser_Figure.png)
 
 # Results on Pretrained Models
-`
-python3 scripts/reshuffle_datasets.py
-`
+As explained in greater detail in the paper, we found a great similarity beween the first layers of various pretrained networks, and measured this similarity via measuring the energy in the PCA basis of the image patches. 
+An example of such results is presented here, and can be reproduced in this demo ![Open In Colab](https://github.com/RheaChowers/first-layer-representations/blob/main/pretrained_models_demo.ipynb).
+![Teaser](Readme_images/Teaser_Figure.png)
+
 
 
 # Citation
