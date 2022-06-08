@@ -7,7 +7,7 @@ A demo illustrating the results of ["Why do CNNs Learn Consistent Representation
 
 # Results on Pretrained Models
 As explained in greater detail in the paper, we found a great similarity beween the first layers of various pretrained networks, and measured this similarity via measuring the energy in the PCA basis of the image patches. 
-An example of such results is presented here, and can be reproduced in this [demo](pretrained_models_demo.ipynb) ![Open In Colab](https://github.com/RheaChowers/first-layer-representations/blob/main/pretrained_models_demo.ipynb).
+An example of such results is presented here, and can be reproduced in this [demo](pretrained_models_demo.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/RheaChowers/first-layer-representations/blob/main/pretrained_models_demo.ipynb).
 
 
 # Citation
