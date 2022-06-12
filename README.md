@@ -3,11 +3,15 @@
 
 A demo illustrating the results of ["Why do CNNs Learn Consistent Representations in their First Layer Independent of Labels and Architecture?"](https://arxiv.org/abs/2206.02454)
 
-
+# Summary
+We show consistency in the representation learnt in the first layer of various CNNs by measuring the average projection of the filters in the first layer in the input's patches' principal components (PCA). We show empirically that this consistency is independent of initialization, width, architecture and even **labels** - whether true or sampled randomly. 
+We continue by proving these properties on a linear CNN with a single hidden layer. We conclude by showing that this model can predict the sensitivity in the first layer to changes in the input statistics. 
 
 # Results on Pretrained Models
-As explained in greater detail in the paper, we found a great similarity beween the first layers of various pretrained networks, and measured this similarity via measuring the energy in the PCA basis of the image patches. 
+As explained in greater detail in the paper, we found a great similarity beween the first layers of various pretrained networks by projecting the filters onto the principal components and measuring correlations between the projection vectors. 
+
 An example of such results is presented here, and can be reproduced in this [demo](pretrained_models_demo.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RheaChowers/first-layer-representations/blob/main/pretrained_models_demo.ipynb).
+
 
 
 # Citation
