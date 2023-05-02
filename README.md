@@ -1,7 +1,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RheaChowers/first-layer-representations/blob/main/pretrained_models_demo.ipynb)
 # What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective
 
-A demo illustrating the results of our paper ["What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective"](https://arxiv.org/abs/2206.02454), which has been accepted to ICML 2023.
+This repository is the official implementation of of our paper ["What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective"](https://arxiv.org/abs/2206.02454), by Rhea Chowers and Yair Weiss, which has been accepted to ICML 2023.
 
 # Summary
 We show that trained networks learn consistent representations that are far from their initialization despite the fact that CNNs with commonly used architectures can be trained with fixed, random filters in the first layer and still yield comparable performance to full learning. We also show that the same energy profile is obtained when the network is trained to predict random labels. We then show that under realistic assumptions on the statistics of the input and labels, consistency also occurs
@@ -15,7 +15,6 @@ An example of such results is presented here, and can be reproduced in this [dem
 
 
 # Citation
-If you find this research interesting, feel free to cite:
 ```
 @misc{chowers2023cnns,
       title={What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective}, 
