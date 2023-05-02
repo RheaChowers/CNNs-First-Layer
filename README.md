@@ -2,7 +2,7 @@
 # What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective
 
 This repository is the official implementation of of our paper ["What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective"](https://arxiv.org/abs/2206.02454), by Rhea Chowers and Yair Weiss, which has been accepted to ICML 2023.
-```{figure} ../figures/true_vs_random.png
+```{figure} figures/true_vs_random.png
 ---
 height: 150px
 name: true_vs_random
