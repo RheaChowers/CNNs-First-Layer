@@ -1,11 +1,11 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RheaChowers/first-layer-representations/blob/main/pretrained_models_demo.ipynb)
-# Why do CNNs Learn Consistent Representations in their First Layer Independent of Labels and Architecture?
+# What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective
 
-A demo illustrating the results of ["Why do CNNs Learn Consistent Representations in their First Layer Independent of Labels and Architecture?"](https://arxiv.org/abs/2206.02454)
+A demo illustrating the results of our paper ["What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective"](https://arxiv.org/abs/2206.02454), which has been accepted to ICML 2023.
 
 # Summary
-We show consistency in the representation learnt in the first layer of various CNNs by measuring the average projection of the filters in the first layer in the input's patches' principal components (PCA). We show empirically that this consistency is independent of initialization, width, architecture and even **labels** - whether true or sampled randomly. 
-We continue by proving these properties on a linear CNN with a single hidden layer. We conclude by showing that this model can predict the sensitivity in the first layer to changes in the input statistics. 
+We show that trained networks learn consistent representations that are far from their initialization despite the fact that CNNs with commonly used architectures can be trained with fixed, random filters in the first layer and still yield comparable performance to full learning. We also show that the same energy profile is obtained when the network is trained to predict random labels. We then show that under realistic assumptions on the statistics of the input and labels, consistency also occurs
+in simple, linear CNNs, and derive an analytical form for its energy profile. We show that as the number of iterations goes to infinity, this profile takes the form of a first layer that performs whitening of the input image patches. Finally, we show that the analytical formula which we derived for linear CNNs gives an excellent fit to the energy profile of real-world CNNs as well, when trained with either true or random labels.
 
 # Results on Pretrained Models
 As explained in greater detail in the paper, we found a great similarity beween the first layers of various pretrained networks by projecting the filters onto the principal components and measuring correlations between the projection vectors. 
@@ -17,14 +17,13 @@ An example of such results is presented here, and can be reproduced in this [dem
 # Citation
 If you find this research interesting, feel free to cite:
 ```
-@misc{https://doi.org/10.48550/arxiv.2206.02454,
-  doi = {10.48550/ARXIV.2206.02454},
-  url = {https://arxiv.org/abs/2206.02454},
-  author = {Chowers, Rhea and Weiss, Yair},
-  title = {Why do CNNs Learn Consistent Representations in their First Layer Independent of Labels and Architecture?},
-  publisher = {arXiv},
-  year = {2022},  
-  copyright = {Creative Commons Attribution 4.0 International}
+@misc{chowers2023cnns,
+      title={What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective}, 
+      author={Rhea Chowers and Yair Weiss},
+      year={2023},
+      eprint={2206.02454},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 
 ```
