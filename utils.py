@@ -167,12 +167,3 @@ def train_model(
             }
         )
 
-    plot_accs(train_accs, test_accs)
-
-
-def plot_accs(train, test):
-    plt.figure()
-    plt.plot(range(1, len(train) + 1), train, label="train")
-    plt.plot(range(1, 5 * len(test) + 1, 5), train, label="test")
-    plt.legend()
-    plt.show()
