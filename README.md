@@ -15,6 +15,8 @@ We show that trained networks learn consistent representations that are far from
 ![fig](figures/formula_fit.png)
 <p align="center" style="text-align: center;">Examples of fitting the formula to different networks trained on different datasets (correlation in parenthesis). Overall, the formula captures the trend learned in the first layer of the networks.</p>
 
+# Code
+This repository contains two notebooks - one for fitting the theoretical profile to energy profiles of trained CNNs, and the other for comparing true and random label trained models. The utils file contains code for calculating the energy profile.
 
 # Citation
 ```
