@@ -1,4 +1,3 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RheaChowers/first-layer-representations/blob/main/pretrained_models_demo.ipynb)
 # What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective
 
 This repository is the official implementation of of our paper ["What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective"](https://arxiv.org/abs/2206.02454), by Rhea Chowers and Yair Weiss, which has been accepted to ICML 2023.
@@ -15,12 +14,6 @@ We show that trained networks learn consistent representations that are far from
 
 ![fig](figures/formula_fit.png)
 <p align="center" style="text-align: center;">Examples of fitting the formula to different networks trained on different datasets (correlation in parenthesis). Overall, the formula captures the trend learned in the first layer of the networks.</p>
-
-# Results on Pretrained Models
-As explained in greater detail in the paper, we found a great similarity beween the first layers of various pretrained networks by projecting the filters onto the principal components and measuring correlations between the projection vectors. 
-
-An example of such results is presented here, and can be reproduced in this [demo](pretrained_models_demo.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RheaChowers/first-layer-representations/blob/main/pretrained_models_demo.ipynb).
-
 
 
 # Citation
