@@ -1,6 +1,6 @@
 # What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective
 
-This repository is the official implementation of of our paper ["What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective"](https://arxiv.org/abs/2206.02454), by Rhea Chowers and Yair Weiss, which has been accepted to ICML 2023.
+This repository is the official implementation of of our paper ["What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective"](https://arxiv.org/abs/2206.02454), by Rhea Chowers and Yair Weiss, published in [ICML 2023](https://proceedings.mlr.press/v202/chowers23a.html).
 
 
 ![fig](figures/true_vs_random.png)
@@ -20,13 +20,21 @@ This repository contains two notebooks - one for fitting the theoretical profile
 
 # Citation
 ```
-@misc{chowers2023cnns,
-      title={What do CNNs Learn in the First Layer and Why? A Linear Systems Perspective}, 
-      author={Rhea Chowers and Yair Weiss},
-      year={2023},
-      eprint={2206.02454},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+
+@InProceedings{pmlr-v202-chowers23a,
+  title = 	 {What do {CNN}s Learn in the First Layer and Why? {A} Linear Systems Perspective},
+  author =       {Chowers, Rhea and Weiss, Yair},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {6115--6139},
+  year = 	 {2023},
+  editor = 	 {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},
+  volume = 	 {202},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--29 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v202/chowers23a/chowers23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v202/chowers23a.html},
 }
+
 
 ```
